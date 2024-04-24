@@ -1,0 +1,28 @@
+@import url(./header.css);
+
+@font-face {
+    font-family: 'neue machina';
+    src: url(../fonts/neue-machina-regular.otf);
+}
+
+:root{
+    --bg-color-primary:#000;
+    --text-color:#FFF;
+    --main-border-color:#aaa7a7;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Open sans", sans-serif;
+}
+
+body{
+    background-color: var(--bg-color-primary);
+    color: var(--text-color);
+}
+.main{
+    margin: .5rem;
+    border: 2px double var(--main-border-color);
+    border-radius: 1rem;
+    padding: 1rem;
+}

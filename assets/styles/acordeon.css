@@ -1,0 +1,65 @@
+.acordeon{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 1rem 0;
+    border: 1px solid var(--acordeon-border-color);
+    border-radius: 1rem;
+    transition: 0.25s;
+}
+
+.acordeon.open,
+.acordeon:hover{
+    background-color: var(--acordeon-hover-color);
+    border-color: var(--acordeon-hover-border-color);
+}
+
+.acordeon__trigger{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: transparent;
+    color: var(--text-color);
+    font-size: 1.5rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 1rem;
+}
+
+.acordeon__trigger:hover{
+    cursor: pointer;
+}
+
+.acordeon__trigger::after{
+    content: "";
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-image: url(../img/icons/iconArrow.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: .25s;
+}
+
+.acordeon.open .acordeon__trigger{
+    background-color: var(--acordeon-open-trigger-bg-color);
+}
+
+.acordeon.open .acordeon__trigger::after{
+    transform: rotate(180deg);
+}
+
+.acordeon__content{
+    overflow: hidden;
+    height: 0;
+    opacity: 0;
+    transition: opacity .5s ease-in-out;
+}
+
+.acordeon.open .acordeon__content{
+    display: inline-block;
+    height: auto;
+    opacity: 1;
+}

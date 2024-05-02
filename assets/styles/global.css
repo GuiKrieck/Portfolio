@@ -1,4 +1,5 @@
 @import url(./header.css);
+@import url(./acordeon.css);
 
 @font-face {
     font-family: 'neue machina';
@@ -9,6 +10,10 @@
     --bg-color-primary:#000;
     --text-color:#FFF;
     --main-border-color:#aaa7a7;
+    --acordeon-border-color: #FFF;
+    --acordeon-hover-color: #55569e77;
+    --acordeon-hover-border-color: #55569E;
+    --acordeon-open-trigger-bg-color: #4D4E99;
 }
 
 * {

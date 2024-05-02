@@ -3,6 +3,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    gap: 16px;
 }
 
 .header__image{
@@ -20,7 +22,7 @@
 
 .header__information h1 {
     font-family: 'neue machina', sans-serif;
-    text-align: center;
+    align-self: center;
 } 
 
 .header__information p{
@@ -55,4 +57,64 @@
 
 .header__information .information__email::before{
     background-image: url(../img/icons/email.svg);
+}
+
+
+.header__socials{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: flex-start;
+    gap: 16px;
+    margin-left: 60px;
+}
+
+.header__socials a{
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.socials__github{
+    background-image: url(../img/icons/socials/GithubPng.png);
+    width: 100%;
+}
+
+.socials__linkedin{
+    background-image: url(../img/icons/socials/Likedin.png);
+    width: 100%;
+}
+
+
+@media screen and (min-width: 768px){
+    .header{
+        flex-direction: row;
+    }
+
+    .header__information h1 {
+        align-self: flex-start;
+    }
+
+    .header__information {
+        margin-left: 5%;
+    }
+
+    .header__socials{
+        flex-direction: column;
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width: 1024px){
+
+   .header__image{
+    width: 300px;
+    height: 300px;
+    }
+
+    .header__information h1 {
+        font-size: 2.5rem;
+    } 
+
+
 }

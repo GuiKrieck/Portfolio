@@ -17,7 +17,7 @@
     <title>Portfólio Guilherme P. Krieck</title>
 </head>
 <body>    
-    <div class="main">        
+    <main class="main">        
         <header class="header">
             <div >
                 <img src="./assets/img/GuiKrieck.jpg" alt="Foto do Guilherme P Krieck" class="header__image">
@@ -28,8 +28,12 @@
                 <h1>Olá, eu sou<br>Guilherme P Krieck</h1>
                 <p class="information__job"> Junior Developer</p>
                 <p class="information__location"> Severinia - SP</p>
-                <p class="information__phone"> 17 99116 6969</p>
-                <p class="information__email"> guilherme.krieck@gmail.com</p>
+                <p class="information__phone"> 
+                    <a href="tel:(17) 9 9116-6969">17 99116 6969</a>
+                </p>
+                <p class="information__email"> 
+                    <a href="mailto:guilherme.krieck@gmail.com">guilherme.krieck@gmail.com</a>
+                </p>
             </div>
             
             <div class="header__socials">
@@ -40,17 +44,198 @@
 
         <section class="acordeon">
             <button class="acordeon__trigger" type="button" >
-                    Idiomas
+                    <h2 class="acordeon__title">Skills</h2>
             </button>
 
             <div class="acordeon__content">
-                <ul>
+                <div class="acordeon__skills">
+                    <section>
+                        <h3>Hard Skills:</h3>
+                        <ul class="hard-skill__list">
+                            <li>
+                                <img src="./assets/img/icons/HardSkills/HTML.svg" alt="Html" title="Html">
+                            </li>
+                            <li>
+                                <img src="./assets/img/icons/HardSkills/CSS.svg" alt="CSS" title="CSS">
+                            </li>
+                            <li>
+                                <img src="./assets/img/icons/HardSkills/JS.svg" alt="JavaScript" title="JavaScript">
+                            </li>
+                            <li>
+                                <img src="./assets/img/icons/HardSkills/TS.svg" alt="TypeScript" title="TypeScript">
+                            </li>
+                            <li>
+                                <img src="./assets/img/icons/HardSkills/React.svg" alt="React" title="React">
+                            </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Soft Skills</h3>
+                        <ul class="soft-skill__list">
+                            <li>
+                                <p>Facilidade em aprender</p>
+                            </li>
+                            <li>
+                                <p>Organização</p>
+                            </li>
+                            <li>
+                                <p>Boa comunicação</p>
+                            </li>
+                            <li>
+                                <p>Trabalho em Equipe</p>
+                            </li>
+                            <li>
+                                <p>Resolução de problemas</p>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="acordeon__trigger" type="button" >
+                    <h2 class="acordeon__title">Projetos</h2>
+            </button>
+
+            <div class="acordeon__content">
+                <ul class="acordeon__projects">
+                    <li>
+                        <div class="projetcs__item github-icon">
+                            <span>Projeto 1</span>
+                            <a href="" target="_blank">linkGithub</a>
+                        </div>
+                    </li>
+                    <div class="divider"></div>
+                    <li>
+                        <div class="projetcs__item github-icon">
+                            <span>Projeto 1</span>
+                            <a href="" target="_blank">linkGithub</a>
+                        </div>
+                    </li>
+                    <div class="divider"></div>
+                    <li>
+                        <div class="projetcs__item github-icon">
+                            <span>Projeto 1</span>
+                            <a href="" target="_blank">linkGithub</a>
+                        </div>
+                    </li>
+                    <div class="divider"></div>
+                    <li>
+                        <div class="projetcs__item github-icon">
+                            <span>Projeto 1</span>
+                            <a href="" target="_blank">linkGithub</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="acordeon__trigger" type="button" >
+                    <h2 class="acordeon__title">Idiomas</h2>
+            </button>
+
+            <div class="acordeon__content">
+                <ul class="acordeon__list">
                     <li>Português</li>
                     <li>Inglês</li>
                 </ul>
             </div>
         </section>
-    </div>
+    
+        <section class="acordeon open">
+            <button class="acordeon__trigger" type="button" >
+                    <h2 class="acordeon__title">Educação</h2>
+            </button>
+
+            <div class="acordeon__content">
+                <div class="acordeon__education">
+                    <section>
+                        <h3>Cursos</h3>
+                        <ul class="education__courses">
+                            <li>
+                                <h4>Bacharel em Ciências Contábeis</h4>
+                                <p>Jan/2016 - Dez/2019</p>
+                                <p>UNIP - EAD</p>
+                            </li>
+                            <div class="divider"></div>
+                            <li>
+                                <h4>Técnico em Informática</h4>
+                                <p>Jan/2005 - Jul/2006</p>
+                                <p>Centro Paula Souza</p>
+                            </li>
+                        </ul>
+                    </section>
+                    <div class="divider"></div>
+                    <section class="education__one">
+                        <h3>Oracle Next Education - Alura</h3>
+                        <ul>
+                            <li class="education__list-item">
+                                <h4>FORMAÇÃO - Front End T6 - ONE</h4>
+                                <small>(cursando)</small>
+                            </li>
+                            <li class="education__list-item">
+                                <h4>FORMAÇÃO - Iniciante em Programação T6 - ONE</h4>
+                                <a href="https://cursos.alura.com.br/user/guilherme-krieck/degree-logica-de-programacao-turma-6-oracle-one-695775/certificate" target="_blank"><small>(certificado)</small></a>
+                            </li>
+                            <li class="education__list-item">
+                                <h4>FORMAÇÃO - Desenvolvimento Pessoal T6 - ONE</h4>
+                                <a href="https://cursos.alura.com.br/user/guilherme-krieck/degree-desenvolvimento-pessoal-turma6-one-695707/certificate" target="_blank"><small>(certificado)</small></a>
+                            </li>
+                            <li class="education__list-item">
+                                <h4>FORMAÇÃO - Empreendedorismo, Agilidade e Protagonismo na Carreira T6 - ONE</h4>
+                                <a href="https://cursos.alura.com.br/user/guilherme-krieck/degree-logica-de-programacao-turma-6-oracle-one-695775/certificate" target="_blank"><small>(certificado)</small></a>
+                            </li>
+                        </ul>
+                    </section>
+                    <div class="divider"></div>
+                    <section class="education__dio">
+                        <h3>DIO - Digital Innovation One</h3>
+                        <ul>
+                            <li class="education__list-item">
+                                <h4>FORMAÇÃO - JavaScript Developer</h4>
+                                <small>(cursando)</small>
+                            </li>
+                            <li class="education__list-item">
+                                <h4>FORMAÇÃO - CSS Web Developer</h4>
+                                <a href="https://www.dio.me/certificate/HZOSX2RF/share" target="_blank"><small>(certificado)</small></a>
+                            </li>
+                            <li class="education__list-item">
+                                <h4>FORMAÇÃO - HTML Web Developer</h4>
+                                <a href="https://www.dio.me/certificate/WM2AMSZA/share" target="_blank"><small>(certificado)</small></a>
+                            </li>
+                            <li class="education__list-item">
+                                <h4>English4Tech - Módulo 12 - Participando Da Review E Retrospectiva Da Sprint</h4>
+                                <a href="https://www.dio.me/certificate/U4SMTF2V/share" target="_blank"><small>(certificado)</small></a>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="acordeon__trigger" type="button" >
+                    <h2 class="acordeon__title">Experiência Profissional</h2>
+            </button>
+
+            <div class="acordeon__content">
+                <ul class="acordeon__experiences">
+                    <li>
+                        <h3 class="experience__title">Auxiliar de Contabilidade</h3>
+                        <p class="experience__period">Maio/2010 - Ago/2021</p>
+                        <p class="experience__company">Método Contabilidade</p>
+                        <p class="experience__description">
+                            Além de minhas reponsabilidades como Auxiliar de Contabilidade, vale ressaltar que 
+                            fui o responsável pela automatização do escritório, migrando dos livros de papel para 
+                            sistemas computadorizados. Também fui o responsável pelos treinamentos, cadastros, exclusões de novos empregados no sistema.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
     <script src="./assets/js/acordeon.js" defer></script>
 </body>
 </html>

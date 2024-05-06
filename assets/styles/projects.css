@@ -1,0 +1,40 @@
+.acordeon__projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1rem;
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.acordeon__projects li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.acordeon__projects .projetcs__item{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;  
+}
+
+.acordeon__projects li:has(.projetcs__item.github-icon)::before{
+    content: "";
+    display: inline-block;
+    min-width: 1.5rem;
+    min-height: 1.5rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../img/icons/pngIcons/GithubPng.png);
+    margin-right: .5rem;
+}
+
+.projetcs__item span{
+    font-size: 1.25rem;
+    font-weight: 700;  
+    padding-bottom: .5rem;
+}
+

@@ -1,0 +1,43 @@
+.acordeon__experiences{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.experience__title{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.experience__period,
+.experience__company{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.experience__period::before,
+.experience__company::before{
+    content: "";
+    display: inline-block;
+    min-width: 1.25rem;
+    min-height: 1.25rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: .5rem;
+}
+
+.experience__period::before{
+    background-image: url(../img/icons/calendar.svg);
+}
+
+.experience__company::before{
+    background-image: url(../img/icons/pngIcons/Company.png);
+}
+
+

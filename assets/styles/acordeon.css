@@ -21,11 +21,15 @@
     align-items: center;
     padding: 1rem 2rem;
     background-color: transparent;
+    border: none;
+    border-radius: 1rem;
+}
+.acordeon__title{
     color: var(--text-color);
     font-size: 1.5rem;
     font-weight: 700;
-    border: none;
-    border-radius: 1rem;
+    margin: 0;
+    padding: 0;
 }
 
 .acordeon__trigger:hover{
@@ -59,7 +63,8 @@
 }
 
 .acordeon.open .acordeon__content{
-    display: inline-block;
+    display: block;
     height: auto;
     opacity: 1;
+    padding: 1rem;
 }

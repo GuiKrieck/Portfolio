@@ -77,12 +77,12 @@
     background-repeat: no-repeat;
 }
 .socials__github{
-    background-image: url(../img/icons/socials/GithubPng.png);
+    background-image: url(../img/icons/pngIcons/GithubPng.png);
     width: 100%;
 }
 
 .socials__linkedin{
-    background-image: url(../img/icons/socials/Likedin.png);
+    background-image: url(../img/icons/pngIcons/Likedin.png);
     width: 100%;
 }
 

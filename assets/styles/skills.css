@@ -1,0 +1,47 @@
+.acordeon__skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.hard-skill__list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+
+.hard-skill__list li img{
+    max-width: 4rem;
+    max-height: 4rem;
+}
+
+@media screen and (min-width: 1024px){
+
+    .acordeon__skills{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .acordeon__skills section{
+        width: 80%;
+    }
+    
+    
+    .acordeon__skills section h3{
+        text-align: center;
+    }
+
+    .hard-skill__list,
+    .soft-skill__list{
+        width: 50%;
+        margin: 0 auto;
+    }
+}

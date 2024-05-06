@@ -1,5 +1,10 @@
 @import url(./header.css);
 @import url(./acordeon.css);
+@import url(./languages.css);
+@import url(./projects.css);
+@import url(./experiences.css);
+@import url(./skills.css);
+@import url(./education.css);
 
 @font-face {
     font-family: 'neue machina';
@@ -14,6 +19,8 @@
     --acordeon-hover-color: #55569e77;
     --acordeon-hover-border-color: #55569E;
     --acordeon-open-trigger-bg-color: #4D4E99;
+    --main-gradient: linear-gradient(135deg, transparent 40%, #10439F 50%, #874CCC 75%, #C65BCF 85%, #ff9ad1 90%);
+    --divider-border-gradient:linear-gradient(45deg, #000000 40%, #10439F 50%, #874CCC 75%, #C65BCF 85%, #ff9ad1 90%);
 }
 
 * {
@@ -24,6 +31,16 @@ body{
     background: var(--bg-color-primary);
     color: var(--text-color);
 }
+
+a{
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
 .main{
     margin: 1rem;
     border: 2px double var(--main-border-color);
@@ -33,7 +50,7 @@ body{
 
 .main::before{
     content: '';
-    background: linear-gradient(135deg, transparent 40%, #10439F 50%, #874CCC 75%, #C65BCF 85%, #ff9ad1 90%);
+    background: var(--main-gradient);
     display: inline-block;
     height: 60vh;
     width: 80vw;
@@ -42,6 +59,16 @@ body{
     right: 0;
     z-index: -1;
     filter: blur(85px);
+}
+
+.divider{
+    width: 100%;
+    border-top: .25rem solid;
+    border-image: var(--divider-border-gradient) 1;
+}
+
+.hidden{
+    display: none;
 }
 
 @media screen and (min-width: 1024px){

@@ -1,0 +1,119 @@
+{
+  "name": "Guilherme P. Krieck",
+  "photo": "https://avatars.githubusercontent.com/u/116123096?v=4",
+  "job": "Junior Developer",
+  "location": "São Paulo - SP",
+  "phone": "(17) 99116-6969",
+  "email": "guilherme.krieck@gmail.com",
+  "skills": {
+    "hardSkills": [
+      {
+        "name": "HTML",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/Portfolio-DIO-TrilhaJavaScript/main/data/imgs/html.png"
+      },
+      {
+        "name": "CSS",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/Portfolio-DIO-TrilhaJavaScript/main/data/imgs/css.png"
+      },
+      {
+        "name": "JavaScript",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/Portfolio-DIO-TrilhaJavaScript/main/data/imgs/js.png"
+      },
+      {
+        "name": "TypeScript",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/Portfolio-DIO-TrilhaJavaScript/main/data/imgs/typescript.png"
+      },
+      {
+        "name": "React",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/Portfolio-DIO-TrilhaJavaScript/main/data/imgs/react.png"
+      }
+    ],
+    "softSkills": [
+      "Facilidade em Aprender",
+      "Organização",
+      "Boa comunicação",
+      "Trabalho em equipe",
+      "Resolução de problemas"
+    ]
+  },
+  "languages": [
+    "Português BR",
+    "Inglês (fluente)"
+  ],
+  "portfolio": [
+    {
+      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
+      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+      "github": true
+    },
+    {
+      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
+      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "github": true
+    }
+  ],
+  "professionalExperience": [
+    {
+      "name": "Auxiliar de Contabilidade",
+      "period": "Maio/2010 - Ago/2021",
+      "company": "Método Contabilidade",
+      "description": "Além de minhas reponsabilidades como Auxiliar de Contabilidade, vale ressaltar que fui o responsável pela automatização do escritório, migrando dos livros de papel para sistemas computadorizados. Também fui o responsável pelos treinamentos, cadastros, exclusões de novos empregados no sistema."
+    }
+  ],
+  "educacao": [
+    {
+      "course": "Bacharel em Ciências Contábeis",
+      "period": "Jan/2016 - Dez/2019",
+      "school": "UNIP - EAD"
+    },
+    {
+      "course": "Técnico em Informática",
+      "period": "Jan/2005 - Jul/2006",
+      "school": "Centro Paula Souza"
+    }
+  ],
+  "one":[
+    {
+      "course": "FORMAÇÃO - Front End T6 - ONE",
+      "state": "cursando",
+      "certificate": ""
+    },
+    {
+      "course": "FORMAÇÃO - Iniciante em Programação T6 - ONE",
+      "state": "terminado",
+      "certificate": "https://cursos.alura.com.br/user/guilherme-krieck/degree-logica-de-programacao-turma-6-oracle-one-695775/certificate"
+    },
+    {
+      "course": "FORMAÇÃO - Desenvolvimento Pessoal T6 - ONE",
+      "state": "terminado",
+      "certificate": "https://cursos.alura.com.br/user/guilherme-krieck/degree-desenvolvimento-pessoal-turma6-one-695707/certificate"
+    },
+    {
+      "course": "FORMAÇÃO - Empreendedorismo, Agilidade e Protagonismo na Carreira T6 - ONE",
+      "state": "terminado",
+      "certificate": "https://cursos.alura.com.br/user/guilherme-krieck/degree-logica-de-programacao-turma-6-oracle-one-695775/certificate"
+    }
+  ],
+  "dio":[
+    {
+      "course": "FORMAÇÃO - JavaScript Developer",
+      "state": "cursando",
+      "certificate": ""
+    },
+    {
+      "course": "FORMAÇÃO - CSS Web Developer",
+      "state": "terminado",
+      "certificate": "https://www.dio.me/certificate/HZOSX2RF/share"
+    },
+    {
+      "course": "FORMAÇÃO - HTML Web Developer",
+      "state": "terminado",
+      "certificate": "https://www.dio.me/certificate/WM2AMSZA/share"
+    },
+    {
+      "course": "English4Tech - Módulo 12 - Participando Da Review E Retrospectiva Da Sprint",
+      "state": "terminado",
+      "certificate": "https://www.dio.me/certificate/U4SMTF2V/share"
+    }
+  ]
+}

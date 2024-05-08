@@ -48,13 +48,23 @@
   ],
   "portfolio": [
     {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+      "name": "Challenge-Portfolio-T06One",
+      "url": "https://github.com/GuiKrieck/Challenge-Portfolio-T06One",
       "github": true
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "name": "HBOmax-clone-DIO",
+      "url": "https://github.com/GuiKrieck/HBOmax-clone-DIO",
+      "github": true
+    },
+    {
+      "name": "Clone-da-landing-page-do-Discord-DIO",
+      "url": "https://github.com/GuiKrieck/Clone-da-landing-page-do-Discord-DIO",
+      "github": true
+    },
+    {
+      "name": "Decodificador-de-texto-T6One",
+      "url": "https://github.com/GuiKrieck/Decodificador-de-texto-T6One",
       "github": true
     }
   ],
@@ -66,7 +76,7 @@
       "description": "Além de minhas reponsabilidades como Auxiliar de Contabilidade, vale ressaltar que fui o responsável pela automatização do escritório, migrando dos livros de papel para sistemas computadorizados. Também fui o responsável pelos treinamentos, cadastros, exclusões de novos empregados no sistema."
     }
   ],
-  "educacao": [
+  "education": [
     {
       "course": "Bacharel em Ciências Contábeis",
       "period": "Jan/2016 - Dez/2019",

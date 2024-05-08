@@ -35,21 +35,50 @@ function updateHardSkills(profileData){
     hardSkills.innerHTML = profileData.skills.hardSkills.map(skill => `<li><img src="${skill.logo}" alt="${skill.name}" title="${skill.name}"></li>`).join('')
 }
 
+function updateProjects(profileData){
+    const projects = document.querySelector('.projects__list');
+    projects.innerHTML = profileData.portfolio.map((project, i, projects) => {
+        if ( projects[i+1] != undefined){
+            return `
+                <li>
+                    <div class="projetcs__item ${project.github ? "github-icon" : ''}">
+                        <span>${project.name}</span>
+                        <a href="${project.url}" target="_blank">${project.url}</a>
+                    </div>
+                </li>
+                <div class="divider"></div>`
+        } else {
+            return`
+                <li>
+                    <div class="projetcs__item ${project.github ? "github-icon" : ''}">
+                        <span>${project.name}</span>
+                        <a href="${project.url}" target="_blank">${project.url}</a>
+                    </div>
+                </li>`
+        }
+    }).join("");
+}
+
 
 function updateLanguages(profileData){
     const languages = document.querySelector('.languages__list');
-    languages.innerHTML = profileData.languages.map(language => `<li>
-                                                                    <div>
-                                                                        <span>${language.name}</span> 
-                                                                        <small>${language.level}</small>
-                                                                    </div>
-                                                                </li>`).join('');
+    languages.innerHTML = profileData.languages.map(language => {
+        return`<li>
+                    <div>
+                        <span>${language.name}</span> 
+                        <small>${language.level}</small>
+                    </div>
+                </li>`
+    }).join('');
 }
+
+
 (async () => {
 
     const profileData = await fetchProfileData();
     updateProfileInfo(profileData);
     updateSoftSkills(profileData);
     updateHardSkills(profileData);
+    updateProjects(profileData);
     updateLanguages(profileData);
 })();

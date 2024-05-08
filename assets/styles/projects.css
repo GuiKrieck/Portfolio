@@ -1,4 +1,4 @@
-.acordeon__projects{
+.projects__list{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -9,19 +9,19 @@
     list-style: none;
 }
 
-.acordeon__projects li{
+.projects__list li{
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.acordeon__projects .projetcs__item{
+.projects__list .projetcs__item{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;  
 }
 
-.acordeon__projects li:has(.projetcs__item.github-icon)::before{
+.projects__list li:has(.projetcs__item.github-icon)::before{
     content: "";
     display: inline-block;
     min-width: 1.5rem;

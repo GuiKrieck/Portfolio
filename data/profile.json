@@ -2,30 +2,30 @@
   "name": "Guilherme P. Krieck",
   "photo": "https://avatars.githubusercontent.com/u/116123096?v=4",
   "job": "Junior Developer",
-  "location": "São Paulo - SP",
+  "location": "Severinia - SP",
   "phone": "(17) 99116-6969",
   "email": "guilherme.krieck@gmail.com",
   "skills": {
     "hardSkills": [
       {
         "name": "HTML",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/Portfolio-DIO-TrilhaJavaScript/main/data/imgs/html.png"
+        "logo": "https://guikrieck.github.io/Portfolio-DIO-TrilhaJavaScript/data/imgs/html.png"
       },
       {
         "name": "CSS",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/Portfolio-DIO-TrilhaJavaScript/main/data/imgs/css.png"
+        "logo": "https://guikrieck.github.io/Portfolio-DIO-TrilhaJavaScript/data/imgs/css.png"
       },
       {
         "name": "JavaScript",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/Portfolio-DIO-TrilhaJavaScript/main/data/imgs/js.png"
+        "logo": "https://guikrieck.github.io/Portfolio-DIO-TrilhaJavaScript/data/imgs/js.png"
       },
       {
         "name": "TypeScript",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/Portfolio-DIO-TrilhaJavaScript/main/data/imgs/typescript.png"
+        "logo": "https://guikrieck.github.io/Portfolio-DIO-TrilhaJavaScript/data/imgs/typescript.png"
       },
       {
         "name": "React",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/Portfolio-DIO-TrilhaJavaScript/main/data/imgs/react.png"
+        "logo": "https://guikrieck.github.io/Portfolio-DIO-TrilhaJavaScript/data/imgs/react.png"
       }
     ],
     "softSkills": [

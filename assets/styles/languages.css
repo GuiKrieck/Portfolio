@@ -1,23 +1,24 @@
-.acordeon__list{
+.languages__list{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-.acordeon__list li{
+.languages__list li{
     display: flex;
     flex-direction: row;
     align-items: center;
     padding-right: 1rem;
     font-weight: 700;
+    margin: 0 1.25rem 1rem 0;
 }
 
-.acordeon__list li::before{
+.languages__list li::before{
     content: "";
     display: inline-block;
     width: 2rem;
@@ -26,4 +27,15 @@
     background-size: contain;
     background-image: url('../img/icons/check.svg');
     margin-right: .5rem;
+}
+
+.languages__list li div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.languages__list small{
+    font-weight: 400;
+    font-size: .75rem;
 }

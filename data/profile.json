@@ -37,8 +37,14 @@
     ]
   },
   "languages": [
-    "Português BR",
-    "Inglês (fluente)"
+    {
+      "name":"Português",
+      "level":"nativo"
+    },
+    {
+      "name":"Inglês",
+      "level":"fluente"
+    }
   ],
   "portfolio": [
     {

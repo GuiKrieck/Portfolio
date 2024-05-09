@@ -48,8 +48,11 @@ function updateProjects(profileData){
             return `
                 <li>
                     <div class="projetcs__item ${project.github ? "github-icon" : ''}">
-                        <span>${project.name}</span>
-                        <a href="${project.url}" target="_blank">${project.url}</a>
+                        <h3>${project.name}</h3>
+                        <div class="project__links">
+                            <a href="${project.repository}" target="_blank" class="link__button"><span>Repositório</span></a>
+                            <a href="${project.deploy}" target="_blank" class="link__button"><span>Demonstração</span></a>
+                        </div>
                     </div>
                 </li>
                 <div class="divider"></div>`
@@ -57,8 +60,11 @@ function updateProjects(profileData){
             return`
                 <li>
                     <div class="projetcs__item ${project.github ? "github-icon" : ''}">
-                        <span>${project.name}</span>
-                        <a href="${project.url}" target="_blank">${project.url}</a>
+                        <h3>${project.name}</h3>
+                        <div class="project__links">
+                            <a href="${project.repository}" target="_blank" class="link__button"><span>Repositório</span></a>
+                            <a href="${project.deploy}" target="_blank" class="link__button"><span>Demonstração</span></a>
+                        </div>
                     </div>
                 </li>`
         }

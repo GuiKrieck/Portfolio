@@ -19,6 +19,9 @@
     --acordeon-hover-color: #55569e77;
     --acordeon-hover-border-color: #55569E;
     --acordeon-open-trigger-bg-color: #4D4E99;
+    --button-bg-color: #050505;
+    --button-border-color: #55569E;
+    --button-bg-hover-color:#1f1f3dbb;
     --main-gradient: linear-gradient(135deg, transparent 40%, #10439F 50%, #874CCC 75%, #C65BCF 85%, #ff9ad1 90%);
     --divider-border-gradient:linear-gradient(45deg, #000000 40%, #10439F 50%, #874CCC 75%, #C65BCF 85%, #ff9ad1 90%);
 }

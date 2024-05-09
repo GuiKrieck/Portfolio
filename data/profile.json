@@ -51,22 +51,26 @@
   "portfolio": [
     {
       "name": "Challenge-Portfolio-T06One",
-      "url": "https://github.com/GuiKrieck/Challenge-Portfolio-T06One",
+      "repository":"https://github.com/GuiKrieck/Challenge-Portfolio-T06One",
+      "deploy":"https://guikrieck.github.io/Challenge-Portfolio-T06One/",
       "github": true
     },
     {
       "name": "HBOmax-clone-DIO",
-      "url": "https://github.com/GuiKrieck/HBOmax-clone-DIO",
+      "repository":"https://github.com/GuiKrieck/HBOmax-clone-DIO",
+      "deploy":"https://guikrieck.github.io/HBOmax-clone-DIO/",
       "github": true
     },
     {
       "name": "Clone-da-landing-page-do-Discord-DIO",
-      "url": "https://github.com/GuiKrieck/Clone-da-landing-page-do-Discord-DIO",
+      "repository":"https://github.com/GuiKrieck/Clone-da-landing-page-do-Discord-DIO",
+      "deploy":"https://guikrieck.github.io/Clone-da-landing-page-do-Discord-DIO/",
       "github": true
     },
     {
       "name": "Decodificador-de-texto-T6One",
-      "url": "https://github.com/GuiKrieck/Decodificador-de-texto-T6One",
+      "repository":"https://github.com/GuiKrieck/Decodificador-de-texto-T6One",
+      "deploy":"https://guikrieck.github.io/Decodificador-de-texto-T6One/",
       "github": true
     }
   ],
@@ -115,8 +119,8 @@
   "dio":[
     {
       "course": "FORMAÇÃO - JavaScript Developer",
-      "certificate": "",
-      "isFinished": false    
+      "certificate": "https://www.dio.me/certificate/QGIQ8OJT/share",
+      "isFinished": true    
     },
     {
       "course": "FORMAÇÃO - CSS Web Developer",

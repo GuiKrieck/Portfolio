@@ -29,12 +29,48 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url(../img/icons/pngIcons/GithubPng.png);
-    margin-right: .5rem;
+    margin-right: 1.5rem;
 }
 
-.projetcs__item span{
+.projetcs__item h3{
     font-size: 1.25rem;
-    font-weight: 700;  
-    padding-bottom: .5rem;
+    font-weight: 700;
+    margin: .85rem 0;
+}
+
+.project__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: .75rem;
+
+    max-width: 350px;
+}
+
+.link__button{
+    background: var(--button-bg-color);
+    width: 150px;
+    padding: 10px;
+
+    border: 1px solid var(--button-border-color);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.link__button:hover{
+    background-color: var(--button-bg-hover-color);
+    border: 1px solid transparent;
+}
+
+@media screen and (min-width: 768px){
+ 
+    .projetcs__item h3{
+        font-size: 1.5rem;
+    }
+
+    .project__links{
+        flex-direction: row;
+    }
 }
 

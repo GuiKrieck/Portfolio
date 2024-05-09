@@ -4,6 +4,8 @@
 
  O código dese projeto foi feito com o auxilio do professor Renan J Paula, durante as aulas do projeto final. Mesmo assim eu dei uma modificada em certo locais pra ficar mais com a minha cara.
 
+ Os dados da página são preenchidos dinamicamente utilizando a arquivo profile.json é feito o consumo da api e aplicado os dados na página através do arquivo main.js, dessa forma fica mais fácil atualizar as informações atualizando somente o arquivo profile.json.
+
  Os conceitos de mobile first e SPA foram aplicados. 
  
  Também foi nos fornecido um modelo no Figma

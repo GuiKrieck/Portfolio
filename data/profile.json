@@ -50,6 +50,12 @@
   ],
   "portfolio": [
     {
+      "name": "AluraGeek-T6One",
+      "repository":"https://github.com/GuiKrieck/AluraGeek-T6One",
+      "deploy":"https://www.youtube.com/watch?v=ceer2a-ofWw",
+      "github": true
+    },
+    {
       "name": "Challenge-Portfolio-T06One",
       "repository":"https://github.com/GuiKrieck/Challenge-Portfolio-T06One",
       "deploy":"https://guikrieck.github.io/Challenge-Portfolio-T06One/",
@@ -65,12 +71,6 @@
       "name": "Clone-da-landing-page-do-Discord-DIO",
       "repository":"https://github.com/GuiKrieck/Clone-da-landing-page-do-Discord-DIO",
       "deploy":"https://guikrieck.github.io/Clone-da-landing-page-do-Discord-DIO/",
-      "github": true
-    },
-    {
-      "name": "Decodificador-de-texto-T6One",
-      "repository":"https://github.com/GuiKrieck/Decodificador-de-texto-T6One",
-      "deploy":"https://guikrieck.github.io/Decodificador-de-texto-T6One/",
       "github": true
     }
   ],
@@ -97,8 +97,8 @@
   "one":[
     {
       "course": "FORMAÇÃO - Front End T6 - ONE",
-      "certificate": "",
-      "isFinished": false    
+      "certificate": "https://cursos.alura.com.br/degree/certificate/f7684321-0f2e-42fb-b5bc-0f8743d102b5?lang",
+      "isFinished": true    
     },
     {
       "course": "FORMAÇÃO - Iniciante em Programação T6 - ONE",

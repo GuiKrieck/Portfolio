@@ -96,6 +96,11 @@
   ],
   "one":[
     {
+      "course": "FORMAÇÃO - React T6 - ONE",
+      "certificate": "",
+      "isFinished": false    
+    },
+    {
       "course": "FORMAÇÃO - Front End T6 - ONE",
       "certificate": "https://cursos.alura.com.br/degree/certificate/f7684321-0f2e-42fb-b5bc-0f8743d102b5?lang",
       "isFinished": true    
@@ -117,6 +122,11 @@
     }
   ],
   "dio":[
+    {
+      "course": "FORMAÇÃO - React Developer",
+      "certificate": "",
+      "isFinished": false    
+    },
     {
       "course": "FORMAÇÃO - JavaScript Developer",
       "certificate": "https://www.dio.me/certificate/QGIQ8OJT/share",

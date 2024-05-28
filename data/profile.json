@@ -11,23 +11,23 @@
     "hardSkills": [
       {
         "name": "HTML",
-        "logo": "https://guikrieck.github.io/Portfolio-DIO-TrilhaJavaScript/data/imgs/html.png"
+        "logo": "https://guikrieck.github.io/Portfolio/data/imgs/html.png"
       },
       {
         "name": "CSS",
-        "logo": "https://guikrieck.github.io/Portfolio-DIO-TrilhaJavaScript/data/imgs/css.png"
+        "logo": "https://guikrieck.github.io/Portfolio/data/imgs/css.png"
       },
       {
         "name": "JavaScript",
-        "logo": "https://guikrieck.github.io/Portfolio-DIO-TrilhaJavaScript/data/imgs/js.png"
+        "logo": "https://guikrieck.github.io/Portfolio/data/imgs/js.png"
       },
       {
         "name": "TypeScript",
-        "logo": "https://guikrieck.github.io/Portfolio-DIO-TrilhaJavaScript/data/imgs/typescript.png"
+        "logo": "https://guikrieck.github.io/Portfolio/data/imgs/typescript.png"
       },
       {
         "name": "React",
-        "logo": "https://guikrieck.github.io/Portfolio-DIO-TrilhaJavaScript/data/imgs/react.png"
+        "logo": "https://guikrieck.github.io/Portfolio/data/imgs/react.png"
       }
     ],
     "softSkills": [

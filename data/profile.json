@@ -50,6 +50,18 @@
   ],
   "portfolio": [
     {
+      "name": "Alura-flix-T6-ONE",
+      "repository":"https://github.com/GuiKrieck/Alura-flix-T6-ONE",
+      "deploy":"https://alura-flix-t6-one.vercel.app/",
+      "github": true
+    },
+    {
+      "name": "React-Organo",
+      "repository":"https://github.com/GuiKrieck/React-Organo",
+      "deploy":"https://react-organo-peach.vercel.app/",
+      "github": true
+    },
+    {
       "name": "AluraGeek-T6One",
       "repository":"https://github.com/GuiKrieck/AluraGeek-T6One",
       "deploy":"https://www.youtube.com/watch?v=ceer2a-ofWw",
@@ -65,12 +77,6 @@
       "name": "HBOmax-clone-DIO",
       "repository":"https://github.com/GuiKrieck/HBOmax-clone-DIO",
       "deploy":"https://guikrieck.github.io/HBOmax-clone-DIO/",
-      "github": true
-    },
-    {
-      "name": "Clone-da-landing-page-do-Discord-DIO",
-      "repository":"https://github.com/GuiKrieck/Clone-da-landing-page-do-Discord-DIO",
-      "deploy":"https://guikrieck.github.io/Clone-da-landing-page-do-Discord-DIO/",
       "github": true
     }
   ],
@@ -97,8 +103,8 @@
   "one":[
     {
       "course": "FORMAÇÃO - React T6 - ONE",
-      "certificate": "",
-      "isFinished": false    
+      "certificate": "https://cursos.alura.com.br/degree/certificate/4f87b313-2595-4667-ac1e-6534dc3f9c43?lang",
+      "isFinished": true   
     },
     {
       "course": "FORMAÇÃO - Front End T6 - ONE",
@@ -123,6 +129,11 @@
   ],
   "dio":[
     {
+      "course": "Formação TypeScript Fullstack Developer",
+      "certificate": "",
+      "isFinished": false    
+    },
+    {
       "course": "FORMAÇÃO - React Developer",
       "certificate": "",
       "isFinished": false    
@@ -140,11 +151,6 @@
     {
       "course": "FORMAÇÃO - HTML Web Developer",
       "certificate": "https://www.dio.me/certificate/WM2AMSZA/share",
-      "isFinished": true
-    },
-    {
-      "course": "English4Tech - Módulo 12 - Participando Da Review E Retrospectiva Da Sprint",
-      "certificate": "https://www.dio.me/certificate/U4SMTF2V/share",
       "isFinished": true
     }
   ]

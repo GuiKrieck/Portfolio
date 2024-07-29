@@ -90,6 +90,11 @@
   ],
   "education": [
     {
+      "course": "Análise e Desenvolvimento de Sistemas",
+      "period": "Jul/2024 - Dez/2026",
+      "school": "Descomplica Faculdade Digital"
+    },
+    {
       "course": "Bacharel em Ciências Contábeis",
       "period": "Jan/2016 - Dez/2019",
       "school": "UNIP - EAD"
@@ -130,13 +135,13 @@
   "dio":[
     {
       "course": "FORMAÇÃO - TypeScript Fullstack Developer",
-      "certificate": "",
-      "isFinished": false    
+      "certificate": "https://hermes.dio.me/certificates/AE064LM7.pdf",
+      "isFinished": true    
     },
     {
       "course": "FORMAÇÃO - React Developer",
-      "certificate": "",
-      "isFinished": false    
+      "certificate": "https://hermes.dio.me/certificates/FJTMNFNE.pdf",
+      "isFinished": true    
     },
     {
       "course": "FORMAÇÃO - JavaScript Developer",
